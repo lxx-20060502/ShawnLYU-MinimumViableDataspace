@@ -8,4 +8,12 @@ out/
 .idea/
 
 .terraform*
-*terraform.tfstate*
+*terraform.tfstate*# macOS
+.DS_Store
+
+# Local/Postman envs
+deployment/postman/*postman_environment.json
+
+# Credentials & DID material (local/dev)
+deployment/assets/credentials/**
+deployment/assets/issuer/did.*.json
