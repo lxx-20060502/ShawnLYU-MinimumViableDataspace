@@ -17,3 +17,7 @@ deployment/postman/*postman_environment.json
 # Credentials & DID material (local/dev)
 deployment/assets/credentials/**
 deployment/assets/issuer/did.*.json
+
+# local-only
+check-prerequisites.sh
+deployment/terraform.tfstate
